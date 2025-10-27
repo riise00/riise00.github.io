@@ -1,13 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 </head>
-<body style="background-color: rgb(44, 41, 41);">
-    <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=4430175" style='border:none;'></iframe>
-</body>
+<body>
+    <div id="particles-js"></div>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <section id="home" class="full-height">
+            <div class="container" data-aos="fade-up">
+                <h1>Your Name</h1>
+                <p class="lead">Web Developer & Designer</p>
+            </div>
+        </section>
+
+        <section id="about" class="full-height">
+            <div class="container">
+                <h2 data-aos="fade-right">About Me</h2>
+                <p data-aos="fade-left">Brief introduction about yourself and your skills.</p>
+                <div class="skills">
+                    <div class="skill" data-aos="zoom-in" data-aos-delay="100">HTML5</div>
+                    <div class="skill" data-aos="zoom-in" data-aos-delay="200">CSS3</div>
+                    <div class="skill" data-aos="zoom-in" data-aos-delay="300">JavaScript</div>
+                    <div class="skill" data-aos="zoom-in" data-aos-delay="400">React</div>
+                    <!-- Add more skills as needed -->
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="full-height">
+            <div class="container">
+                <h2 data-aos="fade-down">My Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card" data-aos="flip-left" data-aos-delay="100">
+                        <h3>Project 1</h3>
+                        <p>Short description of the project.</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                    <div class="project-card" data-aos="flip-left" data-aos-delay="200">
+                        <h3>Project 2</h3>
+                        <p>Short description of the project.</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                    <div class="project-card" data-aos="flip-left" data-aos-delay="300">
+                        <h3>Project 3</h3>
+                        <p>Short description of the project.</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                    <!-- Add more project cards as needed -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="full-height container2">
+            <div class="container">
+                <h2 data-aos="fade-up">Get in Touch</h2>
+                <form data-aos="fade-up" data-aos-delay="200">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    AOS.init({
+      duration: 1000,
+      once: true,
+      offset: 200
+    });
+
+    // Your particle effect initialization
+    setTimeout(() => {
+      document.getElementById('particles-js').style.opacity = 1;
+
+      particlesJS('particles-js', {
+        particles: {
+          number: {
+            value: 80,
+            density: {
+              enable: true,
+              value_area: 800
+            }
+          },
+          color: {
+            value: '#ffffff'
+          },
+          shape: {
+            type: 'circle',
+            stroke: {
+              width: 0,
+              color: '#000000'
+            },
+          },
+          opacity: {
+            value: 0.5,
+            random: false,
+            anim: {
+              enable: false,
+              speed: 1,
+              opacity_min: 0.1,
+              sync: false
+            }
+          },
+          size: {
+            value: 3,
+            random: true,
+            anim: {
+              enable: false,
+              speed: 40,
+              size_min: 0.1,
+              sync: false
+            }
+          },
+          line_linked: {
+            enable: true,
+            distance: 150,
+            color: '#ffffff',
+            opacity: 0.4,
+            width: 1
+          },
+          move: {
+            enable: true,
+            speed: 2,
+            direction: 'none',
+            random: false,
+            straight: false,
+            out_mode: 'out',
+            bounce: false,
+            attract: {
+              enable: false,
+              rotateX: 600,
+              rotateY: 1200
+            }
+          }
+        },
+        interactivity: {
+          detect_on: 'canvas',
+          events: {
+            onhover: {
+              enable: true,
+              mode: 'repulse'
+            },
+            onclick: {
+              enable: true,
+              mode: 'push'
+            },
+            resize: true
+          },
+          modes: {
+            repulse: {
+              distance: 200,
+              duration: 0.4
+            },
+            push: {
+              particles_nb: 4
+            }
+          }
+        },
+        retina_detect: true
+      });
+    }, 2200);
+  });
+</script>
+
+</body>
 </html>
