@@ -1,0 +1,124 @@
+body {
+  overflow-x: hidden;
+}
+  html {
+    scroll-behavior: smooth;
+  }
+
+#particles-container {
+  pointer-events: all;
+}
+
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+}
+
+section, header, footer {
+  position: relative;
+  z-index: 10;
+}
+
+.card {
+  background: rgba(30, 41, 59, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+
+.card h3 {
+  color: #2dd4bf;
+}
+
+.skill {
+  border: 1px solid #2dd4bf;
+  padding: 5px 12px;
+  border-radius: 999px;
+  color: #2dd4bf;
+}
+
+input,
+textarea {
+  background: #0f172a;
+  padding: 10px;
+  border: 1px solid #2dd4bf;
+  border-radius: 6px;
+  color: white;
+}
+
+button {
+  border: 1px solid #2dd4bf;
+  padding: 10px;
+  color: #2dd4bf;
+}
+
+.accordion-btn {
+  width: 100%;
+  text-align: left;
+  padding: 15px;
+  background: rgba(30, 41, 59, 0.7);
+  border-radius: 8px;
+  color: #2dd4bf;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.accordion-btn:hover {
+  background: rgba(45, 212, 191, 0.1);
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  background: rgba(15, 23, 42, 0.8);
+  border-radius: 0 0 8px 8px;
+  padding: 0 15px;
+}
+
+.accordion-content p {
+  padding: 15px 0;
+  color: #cbd5f5;
+}
+
+.mobile-link {
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.mobile-link:hover {
+  color: #2dd4bf;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+    filter: brightness(1);
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradientMoveHover {
+  0% {
+    background-position: 0% 50%;
+    filter: brightness(1.1);
+  }
+  50% {
+    background-position: 100% 50%;
+    filter: brightness(1.3);
+  }
+  100% {
+    background-position: 0% 50%;
+    filter: brightness(1.1);
+  }
+}

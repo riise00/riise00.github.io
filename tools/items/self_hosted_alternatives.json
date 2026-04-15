@@ -1,0 +1,234 @@
+{
+  "id": "self_hosted_alternatives",
+  "title": "Self-Hosted Alternatives Stack",
+  "type": "self-hosted",
+  "category": "productivity",
+  "tags": [
+    "self-hosted",
+    "open-source",
+    "startup",
+    "collaboration",
+    "privacy",
+    "homelab",
+    "dev-tools"
+  ],
+  "summary": "A curated list of self-hosted open-source tools for startups, covering office suites, communication, development, design, business operations, and security.",
+  "tools": [
+    {
+      "name": "Nextcloud",
+      "url": "https://nextcloud.com/",
+      "description": "Self-hosted file sync, sharing, and collaboration platform with app ecosystem.",
+      "tags": ["storage", "collaboration", "cloud"]
+    },
+    {
+      "name": "Collabora Online",
+      "url": "https://www.collaboraoffice.com/",
+      "description": "LibreOffice-based online office suite for document editing and collaboration.",
+      "tags": ["office", "documents"]
+    },
+    {
+      "name": "ONLYOFFICE Docs",
+      "url": "https://www.onlyoffice.com/",
+      "description": "Web-based office suite compatible with Microsoft Office formats.",
+      "tags": ["office", "documents"]
+    },
+    {
+      "name": "Mailcow",
+      "url": "https://mailcow.email/",
+      "description": "Dockerized email server suite with webmail, anti-spam, and admin tools.",
+      "tags": ["email", "server"]
+    },
+    {
+      "name": "Modoboa",
+      "url": "https://modoboa.org/",
+      "description": "Mail hosting and management platform with modern UI.",
+      "tags": ["email"]
+    },
+    {
+      "name": "Mattermost",
+      "url": "https://mattermost.com/",
+      "description": "Self-hosted team chat platform similar to Slack.",
+      "tags": ["chat", "communication"]
+    },
+    {
+      "name": "Prosody",
+      "url": "https://prosody.im/",
+      "description": "Lightweight XMPP server for decentralized messaging.",
+      "tags": ["xmpp", "chat"]
+    },
+    {
+      "name": "ejabberd",
+      "url": "https://www.ejabberd.im/",
+      "description": "Scalable XMPP messaging server for real-time communication.",
+      "tags": ["xmpp", "chat"]
+    },
+    {
+      "name": "Jitsi Meet",
+      "url": "https://jitsi.org/",
+      "description": "Secure video conferencing platform with screen sharing and chat.",
+      "tags": ["video", "meetings"]
+    },
+    {
+      "name": "BigBlueButton",
+      "url": "https://bigbluebutton.org/",
+      "description": "Web conferencing system designed for online learning and collaboration.",
+      "tags": ["video", "meetings"]
+    },
+    {
+      "name": "Penpot",
+      "url": "https://penpot.app/",
+      "description": "Open-source design and prototyping platform similar to Figma.",
+      "tags": ["design", "uiux"]
+    },
+    {
+      "name": "Excalidraw",
+      "url": "https://excalidraw.com/",
+      "description": "Virtual whiteboard for sketching diagrams and ideas collaboratively.",
+      "tags": ["whiteboard"]
+    },
+    {
+      "name": "GIMP",
+      "url": "https://www.gimp.org/",
+      "description": "Advanced image editor for raster graphics.",
+      "tags": ["design", "graphics"]
+    },
+    {
+      "name": "Inkscape",
+      "url": "https://inkscape.org/",
+      "description": "Vector graphics editor similar to Adobe Illustrator.",
+      "tags": ["design", "vector"]
+    },
+    {
+      "name": "Krita",
+      "url": "https://krita.org/",
+      "description": "Professional digital painting and illustration tool.",
+      "tags": ["design", "art"]
+    },
+    {
+      "name": "Gitea",
+      "url": "https://gitea.io/",
+      "description": "Lightweight self-hosted Git service.",
+      "tags": ["git", "dev"]
+    },
+    {
+      "name": "Forgejo",
+      "url": "https://forgejo.org/",
+      "description": "Community-driven fork of Gitea with additional features.",
+      "tags": ["git", "dev"]
+    },
+    {
+      "name": "GitLab CE",
+      "url": "https://about.gitlab.com/install/",
+      "description": "Full DevOps platform with CI/CD pipelines.",
+      "tags": ["git", "ci", "devops"]
+    },
+    {
+      "name": "Woodpecker CI",
+      "url": "https://woodpecker-ci.org/",
+      "description": "Lightweight CI/CD system compatible with Gitea.",
+      "tags": ["ci", "devops"]
+    },
+    {
+      "name": "Drone CI",
+      "url": "https://www.drone.io/",
+      "description": "Container-native CI/CD platform.",
+      "tags": ["ci"]
+    },
+    {
+      "name": "Plane",
+      "url": "https://plane.so/",
+      "description": "Modern project management tool similar to Jira.",
+      "tags": ["project"]
+    },
+    {
+      "name": "Taiga",
+      "url": "https://www.taiga.io/",
+      "description": "Agile project management platform.",
+      "tags": ["project"]
+    },
+    {
+      "name": "OpenProject",
+      "url": "https://www.openproject.org/",
+      "description": "Project management software with Gantt charts and tracking.",
+      "tags": ["project"]
+    },
+    {
+      "name": "Odoo",
+      "url": "https://www.odoo.com/",
+      "description": "All-in-one business suite including CRM, ERP, accounting, and HR.",
+      "tags": ["erp", "business"]
+    },
+    {
+      "name": "ERPNext",
+      "url": "https://erpnext.com/",
+      "description": "Comprehensive open-source ERP system.",
+      "tags": ["erp"]
+    },
+    {
+      "name": "Dolibarr",
+      "url": "https://www.dolibarr.org/",
+      "description": "ERP and CRM system for small businesses.",
+      "tags": ["erp", "crm"]
+    },
+    {
+      "name": "Outline",
+      "url": "https://www.getoutline.com/",
+      "description": "Team knowledge base and documentation platform.",
+      "tags": ["docs", "wiki"]
+    },
+    {
+      "name": "Wiki.js",
+      "url": "https://js.wiki/",
+      "description": "Modern wiki platform with markdown support.",
+      "tags": ["wiki"]
+    },
+    {
+      "name": "BookStack",
+      "url": "https://www.bookstackapp.com/",
+      "description": "Simple documentation platform with structured content.",
+      "tags": ["docs"]
+    },
+    {
+      "name": "Obsidian",
+      "url": "https://obsidian.md/",
+      "description": "Markdown-based knowledge base (not fully self-hosted, but usable with sync solutions).",
+      "tags": ["notes"]
+    },
+    {
+      "name": "Vaultwarden",
+      "url": "https://github.com/dani-garcia/vaultwarden",
+      "description": "Lightweight Bitwarden-compatible password manager server.",
+      "tags": ["security", "passwords"]
+    },
+    {
+      "name": "Bitwarden Server",
+      "url": "https://bitwarden.com/",
+      "description": "Official self-hosted password manager solution.",
+      "tags": ["security"]
+    },
+    {
+      "name": "Keycloak",
+      "url": "https://www.keycloak.org/",
+      "description": "Identity and access management with SSO support.",
+      "tags": ["auth", "security"]
+    },
+    {
+      "name": "Authelia",
+      "url": "https://www.authelia.com/",
+      "description": "Authentication and authorization server for 2FA and SSO.",
+      "tags": ["auth"]
+    },
+    {
+      "name": "Plausible Analytics",
+      "url": "https://plausible.io/",
+      "description": "Privacy-focused web analytics platform.",
+      "tags": ["analytics"]
+    },
+    {
+      "name": "Matomo",
+      "url": "https://matomo.org/",
+      "description": "Full-featured web analytics platform.",
+      "tags": ["analytics"]
+    }
+  ]
+}

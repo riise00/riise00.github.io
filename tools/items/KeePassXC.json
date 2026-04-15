@@ -1,0 +1,16 @@
+{
+  "id": "KeePassXC",
+  "title": "KeePassXC",
+  "type": "centralized",
+  "category": "security",
+  "tags": [
+    "password-manager",
+    "open-source",
+    "end-to-end-encryption",
+    "cross-platform",
+    "zero-knowledge"
+  ],
+  "summary": "Secure password manager for individuals and teams.",
+  "url": "https://keepassxc.org",
+  "description": "KeePassXC is a free and open source software that lets you store and manage your passwords securely and offline. You can use it on Windows, macOS, and Linux, and sync it with various cloud services or devices."
+}

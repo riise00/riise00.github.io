@@ -1,0 +1,885 @@
+[
+  {
+    "name": "Arch Linux",
+    "url": "https://archlinux.org",
+    "description": "Minimal rolling-release Linux distribution focused on user control and customization.",
+    "tags": [
+      "linux",
+      "arch",
+      "rolling",
+      "advanced"
+    ],
+    "id": "arch linux",
+    "title": "Arch Linux",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Operating Systems I Use & Recommend"
+  },
+  {
+    "name": "CachyOS",
+    "url": "https://cachyos.org",
+    "description": "Performance-optimized Arch-based distribution tuned for speed and responsiveness.",
+    "tags": [
+      "linux",
+      "arch",
+      "rolling",
+      "performance"
+    ],
+    "id": "cachyos",
+    "title": "CachyOS",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Operating Systems I Use & Recommend"
+  },
+  {
+    "name": "Garuda Linux Gaming",
+    "url": "https://garudalinux.orgs.html",
+    "description": "Arch-based Linux distro designed for gaming with performance tweaks and preinstalled tools.",
+    "tags": [
+      "linux",
+      "arch",
+      "rolling",
+      "gaming"
+    ],
+    "id": "garuda linux gaming",
+    "title": "Garuda Linux Gaming",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Operating Systems I Use & Recommend"
+  },
+  {
+    "name": "Gentoo",
+    "url": "https://www.gentoo.orgs/",
+    "description": "Highly customizable source-based Linux distribution built for maximum optimization.",
+    "tags": [
+      "linux",
+      "gentoo",
+      "rolling"
+    ],
+    "id": "gentoo",
+    "title": "Gentoo",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Operating Systems I Use & Recommend"
+  },
+  {
+    "name": "Kali Linux",
+    "url": "https://www.kali.org/get-kali/",
+    "description": "Security-focused Linux distribution used for penetration testing and ethical hacking.",
+    "tags": [
+      "linux",
+      "debian",
+      "rolling",
+      "security"
+    ],
+    "id": "kali linux",
+    "title": "Kali Linux",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Operating Systems I Use & Recommend"
+  },
+  {
+    "name": "Kicksecure",
+    "url": "https://www.kicksecure.com/wiki",
+    "description": "Hardened Debian-based OS focused on strong security and privacy protections.",
+    "tags": [
+      "linux",
+      "debian",
+      "stable",
+      "privacy",
+      "hardened"
+    ],
+    "id": "kicksecure",
+    "title": "Kicksecure",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Operating Systems I Use & Recommend"
+  },
+  {
+    "name": "Linux Mint",
+    "url": "https://linuxmint.com.php",
+    "description": "User-friendly Ubuntu-based Linux distribution ideal for beginners.",
+    "tags": [
+      "linux",
+      "ubuntu",
+      "stable",
+      "beginner"
+    ],
+    "id": "linux mint",
+    "title": "Linux Mint",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Operating Systems I Use & Recommend"
+  },
+  {
+    "name": "NixOS",
+    "url": "https://nixos.org.html",
+    "description": "Declarative Linux distribution using reproducible system configuration management.",
+    "tags": [
+      "linux",
+      "rolling",
+      "declarative"
+    ],
+    "id": "nixos",
+    "title": "NixOS",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Operating Systems I Use & Recommend"
+  },
+  {
+    "name": "Nobara",
+    "url": "https://nobaraproject.org-nobara/",
+    "description": "Fedora-based Linux distribution optimized for gaming and multimedia use.",
+    "tags": [
+      "linux",
+      "fedora",
+      "stable",
+      "gaming"
+    ],
+    "id": "nobara",
+    "title": "Nobara",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Operating Systems I Use & Recommend"
+  },
+  {
+    "name": "openSUSE Tumbleweed",
+    "url": "https://get.opensuse.org/tumbleweed/",
+    "description": "Stable rolling-release Linux distribution with strong testing and reliability.",
+    "tags": [
+      "linux",
+      "rolling",
+      "stable-like"
+    ],
+    "id": "opensuse tumbleweed",
+    "title": "openSUSE Tumbleweed",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Operating Systems I Use & Recommend"
+  },
+  {
+    "name": "OPNsense",
+    "url": "https://opnsense.org",
+    "description": "FreeBSD-based firewall and routing platform for network security.",
+    "tags": [
+      "bsd",
+      "freebsd",
+      "firewall"
+    ],
+    "id": "opnsense",
+    "title": "OPNsense",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Operating Systems I Use & Recommend"
+  },
+  {
+    "name": "Parrot Security",
+    "url": "https://www.parrotsec.org",
+    "description": "Debian-based security OS for penetration testing, forensics, and privacy.",
+    "tags": [
+      "linux",
+      "debian",
+      "rolling",
+      "security",
+      "privacy"
+    ],
+    "id": "parrot security",
+    "title": "Parrot Security",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Operating Systems I Use & Recommend"
+  },
+  {
+    "name": "PikaOS Hyprland",
+    "url": "https://pika-os.com/",
+    "description": "Debian-based Linux distribution optimized for Hyprland and gaming performance.",
+    "tags": [
+      "linux",
+      "debian",
+      "hyprland",
+      "gaming"
+    ],
+    "id": "pikaos hyprland",
+    "title": "PikaOS Hyprland",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Operating Systems I Use & Recommend"
+  },
+  {
+    "name": "Pop!_OS",
+    "url": "https://pop.system76.com/",
+    "description": "Ubuntu-based desktop OS designed for productivity and developer workflows.",
+    "tags": [
+      "linux",
+      "ubuntu",
+      "desktop"
+    ],
+    "id": "pop!_os",
+    "title": "Pop!_OS",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Operating Systems I Use & Recommend"
+  },
+  {
+    "name": "Proxmox VE",
+    "url": "https://www.proxmox.com/ens",
+    "description": "Virtualization platform for running VMs and containers in homelab environments.",
+    "tags": [
+      "linux",
+      "debian",
+      "virtualization",
+      "homelab",
+      "hypervisor"
+    ],
+    "id": "proxmox ve",
+    "title": "Proxmox VE",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Operating Systems I Use & Recommend"
+  },
+  {
+    "name": "Rocky Linux",
+    "url": "https://rockylinux.org",
+    "description": "Enterprise-grade Linux distribution compatible with RHEL.",
+    "tags": [
+      "linux",
+      "server"
+    ],
+    "id": "rocky linux",
+    "title": "Rocky Linux",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Operating Systems I Use & Recommend"
+  },
+  {
+    "name": "Tails",
+    "url": "https://tails.net/install/",
+    "description": "Live operating system focused on anonymity and privacy using Tor network.",
+    "tags": [
+      "linux",
+      "debian",
+      "privacy",
+      "live-os"
+    ],
+    "id": "tails",
+    "title": "Tails",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Operating Systems I Use & Recommend"
+  },
+  {
+    "name": "Xubuntu",
+    "url": "https://xubuntu.org",
+    "description": "Lightweight Ubuntu flavor using XFCE desktop environment.",
+    "tags": [
+      "linux",
+      "ubuntu",
+      "xfce",
+      "desktop"
+    ],
+    "id": "xubuntu",
+    "title": "Xubuntu",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Operating Systems I Use & Recommend"
+  },
+  {
+    "name": "Zorin OS Education",
+    "url": "https://zorin.com/os",
+    "description": "Ubuntu-based OS designed for education and ease of use.",
+    "tags": [
+      "linux",
+      "ubuntu",
+      "education",
+      "desktop"
+    ],
+    "id": "zorin os education",
+    "title": "Zorin OS Education",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Operating Systems I Use & Recommend"
+  },
+  {
+    "name": "Fedora KDE",
+    "url": "https://fedoraproject.org/kde/",
+    "description": "Fedora edition featuring the KDE Plasma desktop environment.",
+    "tags": [
+      "linux",
+      "fedora",
+      "kde",
+      "desktop"
+    ],
+    "id": "fedora kde",
+    "title": "Fedora KDE",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Operating Systems I Use & Recommend"
+  },
+  {
+    "name": "NetBSD",
+    "url": "https://www.netbsd.org/releases/",
+    "description": "Highly portable Unix-like BSD operating system.",
+    "tags": [
+      "bsd"
+    ],
+    "id": "netbsd",
+    "title": "NetBSD",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Operating Systems I Use & Recommend"
+  },
+  {
+    "name": "Clonezilla",
+    "url": "https://clonezilla.orgs.php",
+    "description": "Disk imaging and cloning tool used for backup and recovery.",
+    "tags": [
+      "linux",
+      "backup",
+      "recovery",
+      "utility"
+    ],
+    "id": "clonezilla",
+    "title": "Clonezilla",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Operating Systems I Use & Recommend"
+  },
+  {
+    "name": "Damn Small Linux",
+    "url": "https://www.damnsmalllinux.org/",
+    "description": "Extremely lightweight Linux distribution designed for low-resource systems.",
+    "tags": [
+      "linux",
+      "legacy",
+      "ultralight"
+    ],
+    "id": "damn small linux",
+    "title": "Damn Small Linux",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Operating Systems I Use & Recommend"
+  },
+  {
+    "name": "Batocera",
+    "url": "https://batocera.org",
+    "description": "Linux-based operating system for retro gaming and emulation.",
+    "tags": [
+      "linux",
+      "gaming",
+      "emulation"
+    ],
+    "id": "batocera",
+    "title": "Batocera",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Operating Systems I Use & Recommend"
+  },
+  {
+    "name": "Nextcloud",
+    "url": "https://nextcloud.com/",
+    "description": "Self-hosted file sync, sharing, and collaboration platform with app ecosystem.",
+    "tags": [
+      "storage",
+      "collaboration",
+      "cloud"
+    ],
+    "id": "nextcloud",
+    "title": "Nextcloud",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "Collabora Online",
+    "url": "https://www.collaboraoffice.com/",
+    "description": "LibreOffice-based online office suite for document editing and collaboration.",
+    "tags": [
+      "office",
+      "documents"
+    ],
+    "id": "collabora online",
+    "title": "Collabora Online",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "ONLYOFFICE Docs",
+    "url": "https://www.onlyoffice.com/",
+    "description": "Web-based office suite compatible with Microsoft Office formats.",
+    "tags": [
+      "office",
+      "documents"
+    ],
+    "id": "onlyoffice docs",
+    "title": "ONLYOFFICE Docs",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "Mailcow",
+    "url": "https://mailcow.email/",
+    "description": "Dockerized email server suite with webmail, anti-spam, and admin tools.",
+    "tags": [
+      "email",
+      "server"
+    ],
+    "id": "mailcow",
+    "title": "Mailcow",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "Modoboa",
+    "url": "https://modoboa.org/",
+    "description": "Mail hosting and management platform with modern UI.",
+    "tags": [
+      "email"
+    ],
+    "id": "modoboa",
+    "title": "Modoboa",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "Mattermost",
+    "url": "https://mattermost.com/",
+    "description": "Self-hosted team chat platform similar to Slack.",
+    "tags": [
+      "chat",
+      "communication"
+    ],
+    "id": "mattermost",
+    "title": "Mattermost",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "Prosody",
+    "url": "https://prosody.im/",
+    "description": "Lightweight XMPP server for decentralized messaging.",
+    "tags": [
+      "xmpp",
+      "chat"
+    ],
+    "id": "prosody",
+    "title": "Prosody",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "ejabberd",
+    "url": "https://www.ejabberd.im/",
+    "description": "Scalable XMPP messaging server for real-time communication.",
+    "tags": [
+      "xmpp",
+      "chat"
+    ],
+    "id": "ejabberd",
+    "title": "ejabberd",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "Jitsi Meet",
+    "url": "https://jitsi.org/",
+    "description": "Secure video conferencing platform with screen sharing and chat.",
+    "tags": [
+      "video",
+      "meetings"
+    ],
+    "id": "jitsi meet",
+    "title": "Jitsi Meet",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "BigBlueButton",
+    "url": "https://bigbluebutton.org/",
+    "description": "Web conferencing system designed for online learning and collaboration.",
+    "tags": [
+      "video",
+      "meetings"
+    ],
+    "id": "bigbluebutton",
+    "title": "BigBlueButton",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "Penpot",
+    "url": "https://penpot.app/",
+    "description": "Open-source design and prototyping platform similar to Figma.",
+    "tags": [
+      "design",
+      "uiux"
+    ],
+    "id": "penpot",
+    "title": "Penpot",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "Excalidraw",
+    "url": "https://excalidraw.com/",
+    "description": "Virtual whiteboard for sketching diagrams and ideas collaboratively.",
+    "tags": [
+      "whiteboard"
+    ],
+    "id": "excalidraw",
+    "title": "Excalidraw",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "GIMP",
+    "url": "https://www.gimp.org/",
+    "description": "Advanced image editor for raster graphics.",
+    "tags": [
+      "design",
+      "graphics"
+    ],
+    "id": "gimp",
+    "title": "GIMP",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "Inkscape",
+    "url": "https://inkscape.org/",
+    "description": "Vector graphics editor similar to Adobe Illustrator.",
+    "tags": [
+      "design",
+      "vector"
+    ],
+    "id": "inkscape",
+    "title": "Inkscape",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "Krita",
+    "url": "https://krita.org/",
+    "description": "Professional digital painting and illustration tool.",
+    "tags": [
+      "design",
+      "art"
+    ],
+    "id": "krita",
+    "title": "Krita",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "Gitea",
+    "url": "https://gitea.io/",
+    "description": "Lightweight self-hosted Git service.",
+    "tags": [
+      "git",
+      "dev"
+    ],
+    "id": "gitea",
+    "title": "Gitea",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "Forgejo",
+    "url": "https://forgejo.org/",
+    "description": "Community-driven fork of Gitea with additional features.",
+    "tags": [
+      "git",
+      "dev"
+    ],
+    "id": "forgejo",
+    "title": "Forgejo",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "GitLab CE",
+    "url": "https://about.gitlab.com/install/",
+    "description": "Full DevOps platform with CI/CD pipelines.",
+    "tags": [
+      "git",
+      "ci",
+      "devops"
+    ],
+    "id": "gitlab ce",
+    "title": "GitLab CE",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "Woodpecker CI",
+    "url": "https://woodpecker-ci.org/",
+    "description": "Lightweight CI/CD system compatible with Gitea.",
+    "tags": [
+      "ci",
+      "devops"
+    ],
+    "id": "woodpecker ci",
+    "title": "Woodpecker CI",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "Drone CI",
+    "url": "https://www.drone.io/",
+    "description": "Container-native CI/CD platform.",
+    "tags": [
+      "ci"
+    ],
+    "id": "drone ci",
+    "title": "Drone CI",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "Plane",
+    "url": "https://plane.so/",
+    "description": "Modern project management tool similar to Jira.",
+    "tags": [
+      "project"
+    ],
+    "id": "plane",
+    "title": "Plane",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "Taiga",
+    "url": "https://www.taiga.io/",
+    "description": "Agile project management platform.",
+    "tags": [
+      "project"
+    ],
+    "id": "taiga",
+    "title": "Taiga",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "OpenProject",
+    "url": "https://www.openproject.org/",
+    "description": "Project management software with Gantt charts and tracking.",
+    "tags": [
+      "project"
+    ],
+    "id": "openproject",
+    "title": "OpenProject",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "Odoo",
+    "url": "https://www.odoo.com/",
+    "description": "All-in-one business suite including CRM, ERP, accounting, and HR.",
+    "tags": [
+      "erp",
+      "business"
+    ],
+    "id": "odoo",
+    "title": "Odoo",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "ERPNext",
+    "url": "https://erpnext.com/",
+    "description": "Comprehensive open-source ERP system.",
+    "tags": [
+      "erp"
+    ],
+    "id": "erpnext",
+    "title": "ERPNext",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "Dolibarr",
+    "url": "https://www.dolibarr.org/",
+    "description": "ERP and CRM system for small businesses.",
+    "tags": [
+      "erp",
+      "crm"
+    ],
+    "id": "dolibarr",
+    "title": "Dolibarr",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "Outline",
+    "url": "https://www.getoutline.com/",
+    "description": "Team knowledge base and documentation platform.",
+    "tags": [
+      "docs",
+      "wiki"
+    ],
+    "id": "outline",
+    "title": "Outline",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "Wiki.js",
+    "url": "https://js.wiki/",
+    "description": "Modern wiki platform with markdown support.",
+    "tags": [
+      "wiki"
+    ],
+    "id": "wiki.js",
+    "title": "Wiki.js",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "BookStack",
+    "url": "https://www.bookstackapp.com/",
+    "description": "Simple documentation platform with structured content.",
+    "tags": [
+      "docs"
+    ],
+    "id": "bookstack",
+    "title": "BookStack",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "Obsidian",
+    "url": "https://obsidian.md/",
+    "description": "Markdown-based knowledge base (not fully self-hosted, but usable with sync solutions).",
+    "tags": [
+      "notes"
+    ],
+    "id": "obsidian",
+    "title": "Obsidian",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "Vaultwarden",
+    "url": "https://github.com/dani-garcia/vaultwarden",
+    "description": "Lightweight Bitwarden-compatible password manager server.",
+    "tags": [
+      "security",
+      "passwords"
+    ],
+    "id": "vaultwarden",
+    "title": "Vaultwarden",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "Bitwarden Server",
+    "url": "https://bitwarden.com/",
+    "description": "Official self-hosted password manager solution.",
+    "tags": [
+      "security"
+    ],
+    "id": "bitwarden server",
+    "title": "Bitwarden Server",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "Keycloak",
+    "url": "https://www.keycloak.org/",
+    "description": "Identity and access management with SSO support.",
+    "tags": [
+      "auth",
+      "security"
+    ],
+    "id": "keycloak",
+    "title": "Keycloak",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "Authelia",
+    "url": "https://www.authelia.com/",
+    "description": "Authentication and authorization server for 2FA and SSO.",
+    "tags": [
+      "auth"
+    ],
+    "id": "authelia",
+    "title": "Authelia",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "Plausible Analytics",
+    "url": "https://plausible.io/",
+    "description": "Privacy-focused web analytics platform.",
+    "tags": [
+      "analytics"
+    ],
+    "id": "plausible analytics",
+    "title": "Plausible Analytics",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "name": "Matomo",
+    "url": "https://matomo.org/",
+    "description": "Full-featured web analytics platform.",
+    "tags": [
+      "analytics"
+    ],
+    "id": "matomo",
+    "title": "Matomo",
+    "category": "os",
+    "type": "self_hosted",
+    "parent": "Self-Hosted Alternatives Stack"
+  },
+  {
+    "id": "keepassxc",
+    "title": "KeePassXC",
+    "type": "centralized",
+    "category": "security",
+    "tags": [
+      "password-manager",
+      "open-source",
+      "end-to-end-encryption",
+      "cross-platform",
+      "zero-knowledge"
+    ],
+    "summary": "Secure password manager for individuals and teams.",
+    "url": "https://keepassxc.org",
+    "description": "KeePassXC is a free and open source software that lets you store and manage your passwords securely and offline. You can use it on Windows, macOS, and Linux, and sync it with various cloud services or devices."
+  }
+]

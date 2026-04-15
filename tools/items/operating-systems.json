@@ -1,0 +1,271 @@
+{
+  "id": "operating-systems",
+  "title": "Operating Systems I Use & Recommend",
+  "type": "self-hosted",
+  "category": "os",
+  "tags": [
+    "operating-systems",
+    "linux",
+    "security",
+    "homelab",
+    "privacy"
+  ],
+  "summary": "A curated list of operating systems used across desktops, servers, security testing, gaming, privacy-focused environments, and homelabs.",
+  "tools": [
+    {
+      "name": "Arch Linux",
+      "url": "https://archlinux.org",
+      "description": "Minimal rolling-release Linux distribution focused on user control and customization.",
+      "tags": [
+        "linux",
+        "arch",
+        "rolling",
+        "advanced"
+      ]
+    },
+    {
+      "name": "CachyOS",
+      "url": "https://cachyos.org",
+      "description": "Performance-optimized Arch-based distribution tuned for speed and responsiveness.",
+      "tags": [
+        "linux",
+        "arch",
+        "rolling",
+        "performance"
+      ]
+    },
+    {
+      "name": "Garuda Linux Gaming",
+      "url": "https://garudalinux.orgs.html",
+      "description": "Arch-based Linux distro designed for gaming with performance tweaks and preinstalled tools.",
+      "tags": [
+        "linux",
+        "arch",
+        "rolling",
+        "gaming"
+      ]
+    },
+    {
+      "name": "Gentoo",
+      "url": "https://www.gentoo.orgs/",
+      "description": "Highly customizable source-based Linux distribution built for maximum optimization.",
+      "tags": [
+        "linux",
+        "gentoo",
+        "rolling"
+      ]
+    },
+    {
+      "name": "Kali Linux",
+      "url": "https://www.kali.org/get-kali/",
+      "description": "Security-focused Linux distribution used for penetration testing and ethical hacking.",
+      "tags": [
+        "linux",
+        "debian",
+        "rolling",
+        "security"
+      ]
+    },
+    {
+      "name": "Kicksecure",
+      "url": "https://www.kicksecure.com/wiki",
+      "description": "Hardened Debian-based OS focused on strong security and privacy protections.",
+      "tags": [
+        "linux",
+        "debian",
+        "stable",
+        "privacy",
+        "hardened"
+      ]
+    },
+    {
+      "name": "Linux Mint",
+      "url": "https://linuxmint.com.php",
+      "description": "User-friendly Ubuntu-based Linux distribution ideal for beginners.",
+      "tags": [
+        "linux",
+        "ubuntu",
+        "stable",
+        "beginner"
+      ]
+    },
+    {
+      "name": "NixOS",
+      "url": "https://nixos.org.html",
+      "description": "Declarative Linux distribution using reproducible system configuration management.",
+      "tags": [
+        "linux",
+        "rolling",
+        "declarative"
+      ]
+    },
+    {
+      "name": "Nobara",
+      "url": "https://nobaraproject.org-nobara/",
+      "description": "Fedora-based Linux distribution optimized for gaming and multimedia use.",
+      "tags": [
+        "linux",
+        "fedora",
+        "stable",
+        "gaming"
+      ]
+    },
+    {
+      "name": "openSUSE Tumbleweed",
+      "url": "https://get.opensuse.org/tumbleweed/",
+      "description": "Stable rolling-release Linux distribution with strong testing and reliability.",
+      "tags": [
+        "linux",
+        "rolling",
+        "stable-like"
+      ]
+    },
+    {
+      "name": "OPNsense",
+      "url": "https://opnsense.org",
+      "description": "FreeBSD-based firewall and routing platform for network security.",
+      "tags": [
+        "bsd",
+        "freebsd",
+        "firewall"
+      ]
+    },
+    {
+      "name": "Parrot Security",
+      "url": "https://www.parrotsec.org",
+      "description": "Debian-based security OS for penetration testing, forensics, and privacy.",
+      "tags": [
+        "linux",
+        "debian",
+        "rolling",
+        "security",
+        "privacy"
+      ]
+    },
+    {
+      "name": "PikaOS Hyprland",
+      "url": "https://pika-os.com/",
+      "description": "Debian-based Linux distribution optimized for Hyprland and gaming performance.",
+      "tags": [
+        "linux",
+        "debian",
+        "hyprland",
+        "gaming"
+      ]
+    },
+    {
+      "name": "Pop!_OS",
+      "url": "https://pop.system76.com/",
+      "description": "Ubuntu-based desktop OS designed for productivity and developer workflows.",
+      "tags": [
+        "linux",
+        "ubuntu",
+        "desktop"
+      ]
+    },
+    {
+      "name": "Proxmox VE",
+      "url": "https://www.proxmox.com/ens",
+      "description": "Virtualization platform for running VMs and containers in homelab environments.",
+      "tags": [
+        "linux",
+        "debian",
+        "virtualization",
+        "homelab",
+        "hypervisor"
+      ]
+    },
+    {
+      "name": "Rocky Linux",
+      "url": "https://rockylinux.org",
+      "description": "Enterprise-grade Linux distribution compatible with RHEL.",
+      "tags": [
+        "linux",
+        "server"
+      ]
+    },
+    {
+      "name": "Tails",
+      "url": "https://tails.net/install/",
+      "description": "Live operating system focused on anonymity and privacy using Tor network.",
+      "tags": [
+        "linux",
+        "debian",
+        "privacy",
+        "live-os"
+      ]
+    },
+    {
+      "name": "Xubuntu",
+      "url": "https://xubuntu.org",
+      "description": "Lightweight Ubuntu flavor using XFCE desktop environment.",
+      "tags": [
+        "linux",
+        "ubuntu",
+        "xfce",
+        "desktop"
+      ]
+    },
+    {
+      "name": "Zorin OS Education",
+      "url": "https://zorin.com/os",
+      "description": "Ubuntu-based OS designed for education and ease of use.",
+      "tags": [
+        "linux",
+        "ubuntu",
+        "education",
+        "desktop"
+      ]
+    },
+    {
+      "name": "Fedora KDE",
+      "url": "https://fedoraproject.org/kde/",
+      "description": "Fedora edition featuring the KDE Plasma desktop environment.",
+      "tags": [
+        "linux",
+        "fedora",
+        "kde",
+        "desktop"
+      ]
+    },
+    {
+      "name": "NetBSD",
+      "url": "https://www.netbsd.org/releases/",
+      "description": "Highly portable Unix-like BSD operating system.",
+      "tags": [
+        "bsd"
+      ]
+    },
+    {
+      "name": "Clonezilla",
+      "url": "https://clonezilla.orgs.php",
+      "description": "Disk imaging and cloning tool used for backup and recovery.",
+      "tags": [
+        "linux",
+        "backup",
+        "recovery",
+        "utility"
+      ]
+    },
+    {
+      "name": "Damn Small Linux",
+      "url": "https://www.damnsmalllinux.org/",
+      "description": "Extremely lightweight Linux distribution designed for low-resource systems.",
+      "tags": [
+        "linux",
+        "legacy",
+        "ultralight"
+      ]
+    },
+    {
+      "name": "Batocera",
+      "url": "https://batocera.org",
+      "description": "Linux-based operating system for retro gaming and emulation.",
+      "tags": [
+        "linux",
+        "gaming",
+        "emulation"
+      ]
+    }
+  ]
+}

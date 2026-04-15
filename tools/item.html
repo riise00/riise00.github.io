@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tools</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="bg-slate-900 text-white">
+
+  <div class="max-w-5xl mx-auto px-6 py-20">
+
+    <a href="../index.html" class="text-teal-400 hover:underline">
+      ← Back to Home
+    </a>
+
+    <!-- SEARCH -->
+    <input id="search" type="text" placeholder="Search tools..."
+      class="w-full mt-6 p-3 rounded-lg bg-slate-800 border border-slate-700">
+
+    <!-- TAGS -->
+    <div id="tag-bar" class="flex flex-wrap gap-2 mt-4"></div>
+
+    <!-- LIST -->
+    <div id="tools-list" class="grid md:grid-cols-2 gap-6 mt-10"></div>
+
+    <!-- SINGLE TOOL -->
+    <div id="tool-content" class="mt-16 hidden"></div>
+
+  </div>
+
+  <script>
+    function getQueryParam(param) {
+      return new URLSearchParams(window.location.search).get(param);
+    }
+
+    let ALL_TOOLS = [];
+    let ACTIVE_TAGS = new Set();
+
+    // =========================
+    // NORMALIZE TAG
+    // =========================
+    function normTag(t) {
+      return (t || "").trim().toLowerCase();
+    }
+
+    // =========================
+    // LOAD ALL TOOLS
+    // =========================
+    async function loadToolsList() {
+      const res = await fetch("./index.json");
+      ALL_TOOLS = await res.json();
+
+      renderTagBar(ALL_TOOLS);
+      renderTools(ALL_TOOLS);
+
+      document.getElementById("search").addEventListener("input", (e) => {
+        filterTools(e.target.value);
+      });
+    }
+
+    // =========================
+    // TAG BAR
+    // =========================
+    function renderTagBar(tools) {
+      const tagBar = document.getElementById("tag-bar");
+      tagBar.innerHTML = "";
+
+      const tags = new Set();
+
+      tools.forEach(t => {
+        (t.tags || []).forEach(tag => tags.add(normTag(tag)));
+      });
+
+      [...tags].sort().forEach(tag => {
+        const btn = document.createElement("button");
+
+        btn.textContent = tag;
+
+        const isActive = ACTIVE_TAGS.has(tag);
+
+        btn.className =
+          "px-3 py-1 rounded-full text-sm border transition " +
+          (isActive
+            ? "bg-teal-500 text-black border-teal-400"
+            : "bg-slate-800 border-slate-700 hover:border-teal-400");
+
+        btn.onclick = () => {
+          if (ACTIVE_TAGS.has(tag)) {
+            ACTIVE_TAGS.delete(tag);
+          } else {
+            ACTIVE_TAGS.add(tag);
+          }
+
+          filterTools(document.getElementById("search").value);
+        };
+
+        tagBar.appendChild(btn);
+      });
+    }
+
+    // =========================
+    // FILTER (FIXED: AND LOGIC)
+    // =========================
+    function filterTools(query = "") {
+      query = query.toLowerCase();
+
+      const filtered = ALL_TOOLS.filter(tool => {
+        const title = (tool.title || "").toLowerCase();
+        const summary = (tool.summary || "").toLowerCase();
+        const category = (tool.category || "").toLowerCase();
+
+        const toolTags = (tool.tags || []).map(normTag);
+
+        const textMatch =
+          title.includes(query) ||
+          summary.includes(query) ||
+          category.includes(query);
+
+        // =========================
+        // FIXED TAG LOGIC (AND MATCH)
+        // =========================
+        const tagMatch =
+          ACTIVE_TAGS.size === 0 ||
+          [...ACTIVE_TAGS].every(tag => toolTags.includes(tag));
+
+        return textMatch && tagMatch;
+      });
+
+      renderTools(filtered);
+      renderTagBar(ALL_TOOLS); // refresh button states
+    }
+
+    // =========================
+    // RENDER LIST
+    // =========================
+    function renderTools(tools) {
+      const container = document.getElementById("tools-list");
+      container.innerHTML = "";
+
+      tools.forEach(tool => {
+        const el = document.createElement("a");
+
+        el.href = `?id=${tool.id}`;
+        el.className =
+          "block p-6 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 hover:border-teal-500 transition";
+
+        el.innerHTML = `
+      <p class="text-xs text-slate-500 mb-1 capitalize">
+        ${(tool.type || "")} • ${(tool.category || "")}
+      </p>
+
+      <h3 class="text-lg font-semibold">${tool.title}</h3>
+
+      <p class="text-sm text-slate-400 mt-2">
+        ${tool.summary || ""}
+      </p>
+
+      <div class="flex flex-wrap gap-1 mt-3">
+        ${(tool.tags || []).map(t => `
+          <span class="text-xs px-2 py-1 bg-slate-700 rounded-full text-slate-300">
+            ${t}
+          </span>
+        `).join("")}
+      </div>
+    `;
+
+        container.appendChild(el);
+      });
+    }
+
+    // =========================
+    // SINGLE TOOL VIEW
+    // =========================
+    async function loadTool(id) {
+      try {
+        const res = await fetch('./index.json');
+        const tools = await res.json();
+
+        const tool = tools.find(t => t.id.toLowerCase() === id.toLowerCase());
+
+        if (!tool) throw new Error("Tool not found");
+
+        renderTool(tool);
+
+      } catch (err) {
+        console.error(err);
+        document.getElementById("tool-content").innerHTML =
+          `<p class="text-red-500">Tool not found</p>`;
+      }
+    }
+
+    function renderTool(tool) {
+      document.getElementById("tools-list").style.display = "none";
+      document.getElementById("search").style.display = "none";
+      document.getElementById("tag-bar").style.display = "none";
+
+      const container = document.getElementById("tool-content");
+      container.classList.remove("hidden");
+
+      container.innerHTML = `
+    <h1 class="text-4xl font-bold mb-2">${tool.title}</h1>
+
+    <p class="text-slate-500 mb-6 capitalize">
+      ${tool.type || ""} • ${tool.category || ""}
+    </p>
+
+    <p class="text-slate-300 mb-6">
+      ${tool.description || tool.summary || ""}
+    </p>
+
+    ${tool.url ? `
+      <a href="${tool.url}" target="_blank"
+        class="inline-block px-4 py-2 bg-teal-500 text-black font-semibold rounded hover:bg-teal-400 transition">
+        Visit Tool
+      </a>
+    ` : ""}
+  `;
+    }
+
+    // =========================
+    // INIT
+    // =========================
+    document.addEventListener("DOMContentLoaded", () => {
+      const id = getQueryParam("id");
+
+      if (id) {
+        loadTool(id);
+      } else {
+        loadToolsList();
+      }
+    });
+  </script>
+
+</body>
+
+</html>
